@@ -7,7 +7,7 @@ function concatenarSites(){
         site = site.trim();
         if(site){
             resultado +=  `local-zone:"${site}" redirect\n`
-            resultado +=  `local-data:"${site}. A 186.224.17.49\n`
+            resultado +=  `local-data:"${site}. A 186.224.17.49"\n`
         }
     });
 
